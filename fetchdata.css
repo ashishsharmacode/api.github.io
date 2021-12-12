@@ -1,0 +1,59 @@
+
+      body {
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(35deg, #1659cc, #c5f20f);
+      }
+     
+
+      .container{
+            max-width: 700px;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 25px 30px;
+            border-radius: 5px;
+            margin-bottom: 40px;
+            box-shadow: 5px 5px rgb(113, 113, 216);
+
+        }
+
+        .container h4{
+            font-size: 2em;
+            font-weight: 500;
+            position: relative;
+            text-align: center;
+        }
+
+        #table{
+            margin-left: 20px;
+            border-color: #32a881;
+            
+        }
+        tr:nth-child(odd) {
+            background-color: rgba(105, 168, 50, 0.4);
+          }
+    
+          tr:nth-child(even) {
+            background-color: rgba(237, 12, 200, 0.4);
+          }
+    
+          tr:nth-child(2n)
+          {
+            color: black;
+          }
+    
+          tr:nth-child(2n+1)
+          {
+            color: darkblue;
+          }
+    
+          td {
+            padding: 10px;
+            padding-right: 50px;
+          }
+
+        tr:hover{
+            background-color: lightseagreen;
+        }
